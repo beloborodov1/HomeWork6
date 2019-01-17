@@ -25,21 +25,6 @@ quantity.push(rand);
 arr.push (values);
 var values = "";
 }
-
-// //считаем значения по символам
-// for(i in quantity){
-// 	if (arr2[quantity[i]]!=undefined) {
-// 		(arr2[quantity[i]]++)
-// 	}
-// 	else {
-// 		(arr2[quantity[i]]=1)
-// 	}
-// }
-
-// //сообщаем пользователю о результатах
-// for (var i = min; i < arr2.length; i++ )
-// console.log(arr2[i] + ' words ' + i + ' characters');
-
 // Группируем
 for (var c =1 ;min<=max; min++, c++){
     for (i = 0 ; i < arr.length; i++){
